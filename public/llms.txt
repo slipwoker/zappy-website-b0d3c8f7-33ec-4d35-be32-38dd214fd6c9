@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+קליניקה לאסתטיקה מובילה שמחזירה לך את הביטחון והזוהר. טיפולי עור מתקדמים, טיפול אנטי אייג&#39;ינג מקצועי לנשים, ותוצאות שמדברות בעד עצמן. גלי את עולם היופי של Etel Clinic.
+
+### טיפולים
+https://example.com/treatments
+טיפולי פנים לנשים עסוקות שמתאימים לכל לוח זמנים ולכל סוג עור. מאנטי אייג&#39;ינג ועד הזנת עומק — כל טיפול מותאם אישית לצרכייך. גלי את מגוון הטיפולים המלא שלנו.
+
+### אודות המרפאה
+https://example.com/about
+קליניקת איטל נולדה מתוך תשוקה אמיתית לאסתטיקה רפואית ולמצוינות. צוות מומחים מנוסה, טכנולוגיה מתקדמת ואווירה חמה שגורמת לך להרגיש בבית — כי את ראויה לטיפול הטוב ביותר.
+
+### צור קשר
+https://example.com/contact
+רוצה לתאם טיפול? אנחנו כאן בשבילך. צרי קשר עם קליניקת איטל לאסתטיקה ויופי, קבלי ייעוץ מקצועי מותאם אישית ותתחילי את המסע שלך לעור בריא ומואר. פנינו אלייך עוד היום.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
