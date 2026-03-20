@@ -325,16 +325,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+  <button class="phone-header-btn" data-phone="0557717525" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0557717525';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -800,7 +800,7 @@
     </div>
   </div>
   <div class="about-intro-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,90 L0,48 Q120,38 240,50 T480,44 Q600,52 720,42 T960,48 Q1080,38 1200,46 T1440,44 L1440,90 Z" fill="#FBF8F5"></path>
       <path d="M0,90 L0,52 Q120,42 240,54 T480,48 Q600,56 720,46 T960,52 Q1080,42 1200,50 T1440,48 L1440,90 Z" fill="#FBF8F5" stroke="rgba(201,168,106,0.35)" stroke-width="1.5"></path>
     </svg>
@@ -820,7 +820,7 @@
       <div class="about-story-milestones">
         <div class="about-story-milestone">
           <div class="milestone-icon-wrap">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"></path></svg>
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"></path></svg>
           </div>
           <div class="milestone-text">
             <h3 class="milestone-title">רקע מקצועי</h3>
@@ -830,7 +830,7 @@
 
         <div class="about-story-milestone">
           <div class="milestone-icon-wrap">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
           </div>
           <div class="milestone-text">
             <h3 class="milestone-title">צמיחת הקליניקה</h3>
@@ -840,7 +840,7 @@
 
         <div class="about-story-milestone">
           <div class="milestone-icon-wrap">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
           </div>
           <div class="milestone-text">
             <h3 class="milestone-title">מחויבות לטיפול אישי</h3>
@@ -863,7 +863,7 @@
 
   <!-- Bottom Divider: layered paper-like edge in muted teal -->
   <div class="about-story-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,90 L0,48 Q60,38 120,50 T240,44 Q300,52 360,42 T480,48 Q540,40 600,50 T720,44 Q780,52 840,42 T960,48 Q1020,40 1080,50 T1200,44 L1200,90 Z" fill="#FBF8F5" opacity="0.7"></path>
       <path d="M0,90 L0,58 Q80,46 160,60 T320,52 Q400,62 480,54 T640,58 Q720,48 800,60 T960,54 Q1040,62 1120,54 T1200,58 L1200,90 Z" fill="#FBF8F5"></path>
     </svg>
@@ -920,7 +920,7 @@
   </div>
 
   <div class="about-team-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,90 L0,52 Q120,38 240,50 T480,44 Q600,52 720,42 T960,48 Q1080,38 1200,50 L1200,90 Z" fill="#1D2328"></path>
       <path d="M0,90 L0,60 Q150,48 300,58 T600,52 Q750,60 900,50 T1200,58 L1200,90 Z" fill="#1D2328" opacity="0.5"></path>
     </svg>
@@ -939,7 +939,7 @@
         <ul class="about-standards-list">
           <li class="about-standards-item">
             <div class="about-standards-item-icon">
-              <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
             </div>
             <div class="about-standards-item-content">
               <h3 class="about-standards-item-title">פרטיות המטופל</h3>
@@ -948,7 +948,7 @@
           </li>
           <li class="about-standards-item">
             <div class="about-standards-item-icon">
-              <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4l3 3"></path></svg>
+              <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4l3 3"></path></svg>
             </div>
             <div class="about-standards-item-content">
               <h3 class="about-standards-item-title">ייעוץ מדויק ואישי</h3>
@@ -957,7 +957,7 @@
           </li>
           <li class="about-standards-item">
             <div class="about-standards-item-icon">
-              <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4"></path><path d="M21 12c0 4.97-4.03 9-9 9S3 16.97 3 12 7.03 3 12 3s9 4.03 9 9z"></path></svg>
+              <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4"></path><path d="M21 12c0 4.97-4.03 9-9 9S3 16.97 3 12 7.03 3 12 3s9 4.03 9 9z"></path></svg>
             </div>
             <div class="about-standards-item-content">
               <h3 class="about-standards-item-title">מוצרים מאושרים בלבד</h3>
@@ -966,7 +966,7 @@
           </li>
           <li class="about-standards-item">
             <div class="about-standards-item-icon">
-              <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+              <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
             </div>
             <div class="about-standards-item-content">
               <h3 class="about-standards-item-title">היגיינה ברמה הגבוהה ביותר</h3>
@@ -975,7 +975,7 @@
           </li>
           <li class="about-standards-item">
             <div class="about-standards-item-icon">
-              <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path></svg>
+              <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path></svg>
             </div>
             <div class="about-standards-item-content">
               <h3 class="about-standards-item-title">הכוונה שקופה ואמינה</h3>
@@ -1001,7 +1001,7 @@
 </section>
   </main>
   
-  <footer class="site-footer"><div class="footer-top"><div class="footer-container"><div class="footer-grid"><div class="footer-col footer-brand"><img src="/assets/etel-clinic-logo.webp" alt="Etel Clinic" class="logo"><p class="footer-tagline">יופי, בריאות ואסתטיקה — הכל במקום אחד.</p><div class="footer-social"><a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading">ניווט מהיר</h4><ul><li><a href="/treatments">טיפולים</a></li><li><a href="/about">אודות המרפאה</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading">צרו קשר</h4><ul class="contact-list"><li><i class="fas fa-envelope"></i><a href="mailto:[business_email]">[business_email]</a></li><li><i class="fas fa-phone"></i><a href="tel:[business_phone]">[business_phone]</a></li><li><a href="/"><i class="fas fa-map-marker-alt"></i><span>[business_address]</span></a></li></ul></div><div class="footer-col footer-hours"><h4 class="footer-heading">שעות פעילות</h4><ul class="hours-list"><li><a href="/"><span>ראשון – חמישי</span><span>09:00 – 19:00</span></a></li><li><a href="/"><span>שישי</span><span>09:00 – 14:00</span></a></li><li><a href="/"><span>שבת</span><span>סגור</span></a></li></ul></div></div></div></div><div class="footer-bottom"><div class="footer-container footer-bottom-inner"><p class="footer-copy">© 2026 Etel Clinic. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy">מדיניות פרטיות</a><a href="/terms">תנאי שימוש</a><a href="/accessibility">נגישות</a><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
+  <footer class="site-footer"><div class="footer-top"><div class="footer-container"><div class="footer-grid"><div class="footer-col footer-brand"><img src="/assets/etel-clinic-logo.webp" alt="Etel Clinic" class="logo"><p class="footer-tagline">יופי, בריאות ואסתטיקה — הכל במקום אחד.</p><div class="footer-social"><a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a><a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading">ניווט מהיר</h4><ul><li><a href="/treatments">טיפולים</a></li><li><a href="/about">אודות המרפאה</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading">צרו קשר</h4><ul class="contact-list"><li><i class="fas fa-envelope"></i><a href="mailto:office@etel-clinic.com">office@etel-clinic.com</a></li><li><i class="fas fa-phone"></i><a href="tel:0557717525">0557717525</a></li><li><a href="/"><i class="fas fa-map-marker-alt"></i><span>בני ברמן 2, נתניה, השרון, 4265938, ישראל</span></a></li></ul></div><div class="footer-col footer-hours"><h4 class="footer-heading">שעות פעילות</h4><ul class="hours-list"><li><a href="/"><span>ראשון – חמישי</span><span>09:00 – 19:00</span></a></li><li><a href="/"><span>שישי</span><span>09:00 – 14:00</span></a></li><li><a href="/"><span>שבת</span><span>סגור</span></a></li></ul></div></div></div></div><div class="footer-bottom"><div class="footer-container footer-bottom-inner"><p class="footer-copy">© 2026 Etel Clinic. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy">מדיניות פרטיות</a><a href="/terms">תנאי שימוש</a><a href="/accessibility">נגישות</a><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
   
   <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>

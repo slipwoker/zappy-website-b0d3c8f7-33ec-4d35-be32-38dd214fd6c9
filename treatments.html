@@ -325,16 +325,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+  <button class="phone-header-btn" data-phone="0557717525" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0557717525';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -915,7 +915,7 @@
 
   <!-- Bottom diagonal teal-tinted divider -->
   <div class="treatments-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,90 L0,55 Q180,30 360,48 T720,38 Q900,28 1080,46 T1440,32 L1440,90 Z" fill="#1D2328"></path>
       <path d="M0,90 L0,68 Q240,50 480,62 T960,52 Q1140,44 1300,58 T1440,50 L1440,90 Z" fill="#1D2328"></path>
     </svg>
@@ -983,7 +983,7 @@
 
   <!-- Bottom Divider -->
   <div class="treatments-process-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,80 L0,48 Q60,32 120,44 Q180,56 240,38 Q300,22 360,40 Q420,56 480,36 Q540,18 600,38 Q660,56 720,40 Q780,24 840,42 Q900,58 960,38 Q1020,20 1080,40 Q1140,58 1200,44 L1200,80 Z" fill="#FAF9F7"></path>
     </svg>
   </div>
@@ -1058,7 +1058,7 @@
 </section>
   </main>
   
-  <footer class="site-footer"><div class="footer-top"><div class="footer-container"><div class="footer-grid"><div class="footer-col footer-brand"><img src="/assets/etel-clinic-logo.webp" alt="Etel Clinic" class="logo"><p class="footer-tagline">יופי, בריאות ואסתטיקה — הכל במקום אחד.</p><div class="footer-social"><a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading">ניווט מהיר</h4><ul><li><a href="/treatments">טיפולים</a></li><li><a href="/about">אודות המרפאה</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading">צרו קשר</h4><ul class="contact-list"><li><i class="fas fa-envelope"></i><a href="mailto:[business_email]">[business_email]</a></li><li><i class="fas fa-phone"></i><a href="tel:[business_phone]">[business_phone]</a></li><li><a href="/"><i class="fas fa-map-marker-alt"></i><span>[business_address]</span></a></li></ul></div><div class="footer-col footer-hours"><h4 class="footer-heading">שעות פעילות</h4><ul class="hours-list"><li><a href="/"><span>ראשון – חמישי</span><span>09:00 – 19:00</span></a></li><li><a href="/"><span>שישי</span><span>09:00 – 14:00</span></a></li><li><a href="/"><span>שבת</span><span>סגור</span></a></li></ul></div></div></div></div><div class="footer-bottom"><div class="footer-container footer-bottom-inner"><p class="footer-copy">© 2026 Etel Clinic. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy">מדיניות פרטיות</a><a href="/terms">תנאי שימוש</a><a href="/accessibility">נגישות</a><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
+  <footer class="site-footer"><div class="footer-top"><div class="footer-container"><div class="footer-grid"><div class="footer-col footer-brand"><img src="/assets/etel-clinic-logo.webp" alt="Etel Clinic" class="logo"><p class="footer-tagline">יופי, בריאות ואסתטיקה — הכל במקום אחד.</p><div class="footer-social"><a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a><a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading">ניווט מהיר</h4><ul><li><a href="/treatments">טיפולים</a></li><li><a href="/about">אודות המרפאה</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading">צרו קשר</h4><ul class="contact-list"><li><i class="fas fa-envelope"></i><a href="mailto:office@etel-clinic.com">office@etel-clinic.com</a></li><li><i class="fas fa-phone"></i><a href="tel:0557717525">0557717525</a></li><li><a href="/"><i class="fas fa-map-marker-alt"></i><span>בני ברמן 2, נתניה, השרון, 4265938, ישראל</span></a></li></ul></div><div class="footer-col footer-hours"><h4 class="footer-heading">שעות פעילות</h4><ul class="hours-list"><li><a href="/"><span>ראשון – חמישי</span><span>09:00 – 19:00</span></a></li><li><a href="/"><span>שישי</span><span>09:00 – 14:00</span></a></li><li><a href="/"><span>שבת</span><span>סגור</span></a></li></ul></div></div></div></div><div class="footer-bottom"><div class="footer-container footer-bottom-inner"><p class="footer-copy">© 2026 Etel Clinic. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy">מדיניות פרטיות</a><a href="/terms">תנאי שימוש</a><a href="/accessibility">נגישות</a><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
   
   <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>

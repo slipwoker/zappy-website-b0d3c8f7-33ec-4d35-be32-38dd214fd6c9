@@ -325,16 +325,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+  <button class="phone-header-btn" data-phone="0557717525" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0557717525';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -796,7 +796,7 @@
     </div>
   </div>
   <div class="contact-intro-divider-wrapper" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 32" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 32" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <rect x="0" y="14" width="1200" height="4" fill="none"></rect>
       <defs>
         <linearGradient id="goldFade" x1="0" y1="0" x2="1" y2="0">
@@ -820,33 +820,32 @@
     <aside class="contact-details-col">
       <article class="contact-card">
         <div class="contact-card-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.06z"></path></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.06z"></path></svg>
         </div>
         <div class="contact-card-content">
           <h3 class="contact-card-label">טלפון</h3>
-          <a href="tel:[business_phone]" class="contact-card-value">[business_phone]</a>
+          <a href="tel:0557717525" class="contact-card-value">0557717525</a>
         </div>
       </article>
 
       <article class="contact-card">
         <div class="contact-card-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"></rect><polyline points="22,4 12,13 2,4"></polyline></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"></rect><polyline points="22,4 12,13 2,4"></polyline></svg>
         </div>
         <div class="contact-card-content">
           <h3 class="contact-card-label">דואר אלקטרוני</h3>
-          <a href="mailto:[business_email]" class="contact-card-value">[business_email]</a>
+          <a href="mailto:office@etel-clinic.com" class="contact-card-value">office@etel-clinic.com</a>
         </div>
       </article>
 
       <article class="contact-card">
         <div class="contact-card-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
         </div>
         <div class="contact-card-content">
           <h3 class="contact-card-label">כתובת</h3>
-          <address class="contact-card-value contact-card-address">[business_address]</address>
-          <a href="https://maps.google.com/?q=[business_address]" target="_blank" rel="noopener noreferrer" class="contact-map-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          <address class="contact-card-value contact-card-address">בני ברמן 2, נתניה, השרון, 4265938, ישראל</address>
+          <a href="https://maps.google.com/?q=בני ברמן 2, נתניה, השרון, 4265938, ישראל" target="_blank" rel="noopener noreferrer" class="contact-map-link">בני ברמן 2, נתניה, השרון, 4265938, ישראל<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
             פתח במפות
           </a>
         </div>
@@ -854,7 +853,7 @@
 
       <article class="contact-card">
         <div class="contact-card-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
         </div>
         <div class="contact-card-content">
           <h3 class="contact-card-label">שעות פעילות</h3>
@@ -864,15 +863,15 @@
       </article>
 
       <div class="contact-social-row">
-        <a href="https://wa.me/[whatsapp_handle]" target="_blank" rel="noopener noreferrer" class="contact-social-btn contact-social-btn--wa" aria-label="WhatsApp">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="contact-social-btn contact-social-btn--wa" aria-label="WhatsApp" style="display:none !important;">
           <i class="fab fa-whatsapp" aria-hidden="true"></i>
           WhatsApp
         </a>
-        <a href="https://instagram.com/[instagram_handle]" target="_blank" rel="noopener noreferrer" class="contact-social-btn contact-social-btn--ig" aria-label="Instagram">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="contact-social-btn contact-social-btn--ig" aria-label="Instagram" style="display:none !important;">
           <i class="fab fa-instagram" aria-hidden="true"></i>
           Instagram
         </a>
-        <a href="https://facebook.com/[facebook_handle]" target="_blank" rel="noopener noreferrer" class="contact-social-btn contact-social-btn--fb" aria-label="Facebook">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="contact-social-btn contact-social-btn--fb" aria-label="Facebook" style="display:none !important;">
           <i class="fab fa-facebook-f" aria-hidden="true"></i>
           Facebook
         </a>
@@ -888,7 +887,7 @@
       <ul class="contact-assurance-list">
         <li class="contact-assurance-item">
           <div class="contact-assurance-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
           </div>
           <div class="contact-assurance-text">
             <strong>מענה מהיר</strong>
@@ -897,7 +896,7 @@
         </li>
         <li class="contact-assurance-item">
           <div class="contact-assurance-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
           </div>
           <div class="contact-assurance-text">
             <strong>פרטיות מלאה</strong>
@@ -906,7 +905,7 @@
         </li>
         <li class="contact-assurance-item">
           <div class="contact-assurance-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
           </div>
           <div class="contact-assurance-text">
             <strong>מעקב חכם ומסודר</strong>
@@ -920,7 +919,7 @@
 
   <!-- Bottom blush gradient divider -->
   <div class="contact-contact-divider-wrapper" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 70" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,70 L0,38 Q120,28 240,36 T480,30 Q600,24 720,32 T960,26 Q1080,30 1200,34 L1200,70 Z" fill="#FBF8F5"></path>
     </svg>
   </div>
@@ -967,7 +966,7 @@
       </form>
 
       <p class="contact-form-section__crm-note">
-        <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+        <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
         פנייתך מועברת ישירות למערכת ה-CRM של הקליניקה ותטופל על ידי הצוות בהקדם האפשרי.
       </p>
     </div>
@@ -976,7 +975,7 @@
 
   <!-- Bottom curved divider -->
   <div class="contact-form-section__divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 70" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,70 L0,38 Q360,0 720,28 Q1080,56 1440,20 L1440,70 Z" fill="#FBF8F5"></path>
     </svg>
   </div>
@@ -988,7 +987,7 @@
 
     <!-- Content Column (START = RIGHT in RTL) -->
     <div class="contact-location-content">
-      <span class="contact-location-label">איך מגיעים אלינו</span>
+      <span class="contact-location-label">בני ברמן 2, נתניה, השרון, 4265938, ישראל</span>
       <h2 class="contact-location-heading">מחכים לכם בקליניקה</h2>
       <p class="contact-location-intro">קליניקת איטל ממוקמת באזור נגיש ונוח, ומקבלת לקוחות בתיאום מראש. כדי להפוך את הביקור שלכם לנעים ומרגיע ככל האפשר, ריכזנו עבורכם את כל המידע המעשי שתצטרכו לפני ההגעה.</p>
 
@@ -996,7 +995,7 @@
 
         <li class="contact-location-note-item">
           <div class="note-icon-wrap">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
               <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
             </svg>
@@ -1009,7 +1008,7 @@
 
         <li class="contact-location-note-item">
           <div class="note-icon-wrap">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <circle cx="12" cy="12" r="10"></circle>
               <path d="M12 6v6l4 2"></path>
             </svg>
@@ -1022,7 +1021,7 @@
 
         <li class="contact-location-note-item">
           <div class="note-icon-wrap">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
               <circle cx="12" cy="7" r="4"></circle>
             </svg>
@@ -1035,8 +1034,8 @@
 
       </ul>
 
-      <a href="https://maps.google.com/?q=[business_address]" target="_blank" rel="noopener noreferrer" class="btn-directions">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+      <a href="https://maps.google.com/?q=בני ברמן 2, נתניה, השרון, 4265938, ישראל" target="_blank" rel="noopener noreferrer" class="btn-directions">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
         נווט אלינו
       </a>
     </div>
@@ -1046,8 +1045,8 @@
       <div class="contact-location-image-frame">
         <img data-placeholder="contact-location-image-1" data-context="Elegant exterior or entrance of a premium aesthetic and beauty clinic in Israel. The facade is clean and modern with warm lighting, a tasteful clinic sign reading Etel Clinic, potted greenery near the entrance, and a welcoming atmosphere. Soft natural daylight, polished materials, and a sense of calm professionalism." width="600" height="700" src="/assets/site-contact-location-image-1.webp" alt="כניסה לקליניקת איטל לאסתטיקה ויופי">
         <div class="contact-location-address-badge">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-          <span>[business_address]</span>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <span>בני ברמן 2, נתניה, השרון, 4265938, ישראל</span>
         </div>
       </div>
     </div>
@@ -1056,7 +1055,7 @@
 </section>
   </main>
   
-  <footer class="site-footer"><div class="footer-top"><div class="footer-container"><div class="footer-grid"><div class="footer-col footer-brand"><img src="/assets/etel-clinic-logo.webp" alt="Etel Clinic" class="logo"><p class="footer-tagline">יופי, בריאות ואסתטיקה — הכל במקום אחד.</p><div class="footer-social"><a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading">ניווט מהיר</h4><ul><li><a href="/treatments">טיפולים</a></li><li><a href="/about">אודות המרפאה</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading">צרו קשר</h4><ul class="contact-list"><li><i class="fas fa-envelope"></i><a href="mailto:[business_email]">[business_email]</a></li><li><i class="fas fa-phone"></i><a href="tel:[business_phone]">[business_phone]</a></li><li><a href="/"><i class="fas fa-map-marker-alt"></i><span>[business_address]</span></a></li></ul></div><div class="footer-col footer-hours"><h4 class="footer-heading">שעות פעילות</h4><ul class="hours-list"><li><a href="/"><span>ראשון – חמישי</span><span>09:00 – 19:00</span></a></li><li><a href="/"><span>שישי</span><span>09:00 – 14:00</span></a></li><li><a href="/"><span>שבת</span><span>סגור</span></a></li></ul></div></div></div></div><div class="footer-bottom"><div class="footer-container footer-bottom-inner"><p class="footer-copy">© 2026 Etel Clinic. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy">מדיניות פרטיות</a><a href="/terms">תנאי שימוש</a><a href="/accessibility">נגישות</a><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
+  <footer class="site-footer"><div class="footer-top"><div class="footer-container"><div class="footer-grid"><div class="footer-col footer-brand"><img src="/assets/etel-clinic-logo.webp" alt="Etel Clinic" class="logo"><p class="footer-tagline">יופי, בריאות ואסתטיקה — הכל במקום אחד.</p><div class="footer-social"><a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a><a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading">ניווט מהיר</h4><ul><li><a href="/treatments">טיפולים</a></li><li><a href="/about">אודות המרפאה</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading">צרו קשר</h4><ul class="contact-list"><li><i class="fas fa-envelope"></i><a href="mailto:office@etel-clinic.com">office@etel-clinic.com</a></li><li><i class="fas fa-phone"></i><a href="tel:0557717525">0557717525</a></li><li><a href="/"><i class="fas fa-map-marker-alt"></i><span>בני ברמן 2, נתניה, השרון, 4265938, ישראל</span></a></li></ul></div><div class="footer-col footer-hours"><h4 class="footer-heading">שעות פעילות</h4><ul class="hours-list"><li><a href="/"><span>ראשון – חמישי</span><span>09:00 – 19:00</span></a></li><li><a href="/"><span>שישי</span><span>09:00 – 14:00</span></a></li><li><a href="/"><span>שבת</span><span>סגור</span></a></li></ul></div></div></div></div><div class="footer-bottom"><div class="footer-container footer-bottom-inner"><p class="footer-copy">© 2026 Etel Clinic. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy">מדיניות פרטיות</a><a href="/terms">תנאי שימוש</a><a href="/accessibility">נגישות</a><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
   
   <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
